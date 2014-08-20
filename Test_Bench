@@ -1,0 +1,18 @@
+module hello_tb();
+reg clock, reset;
+wire a,b,c,d,e,f,g;
+wire [3:0] en;
+//instantiation of module
+ssevenseg uut( clock,reset,a,b,c,d,e,f,g,en);
+//definition of clock
+initial clock <= 1'b0;
+always #2 clock <= ~clock;
+//assignments of inputs
+initial 
+begin
+reset <= 1'b1;
+#2
+reset <= 1'b0;
+end 
+
+endmodule
