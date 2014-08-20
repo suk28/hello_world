@@ -1,7 +1,6 @@
 hello_world
 ===========
 
-My first repository !!
 
 
 module ssevenseg (
