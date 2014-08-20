@@ -1,0 +1,11 @@
+NET a LOC = "L14";
+NET b LOC = "H12";
+NET c LOC = "N14";
+NET d LOC = "N11";
+NET e LOC = "P12";
+NET f LOC = "L13";
+NET g LOC = "M12";
+NET en[3] LOC = "F12";
+NET en[2] LOC = "J12";
+NET en[1] LOC = "M13";
+NET en[0] LOC = "K14";
